@@ -41,6 +41,15 @@ What is the probability of at least 3 but no more than 5 albino mice in a litter
 
 Recall our Dihybrid cross in birds
 
+<img src="https://user-images.githubusercontent.com/47755288/207365544-63e26fae-1325-4be0-9cfa-ee48048cc37a.png" width="300">
+
+## Question 6
+
+If the parental birds shown above have 20 offspring over the course of their lifetime, what is the probability of getting equal numbers of Yellow/Normal, Yellow/Clear, White/Normal, and White/Clear offspring?
+
+## Question 7
+
+The White/Clear birds are the most valuable for your research. How many offspring should you plan for so that there is a >80% chance of having 8 White/Clear baby birds?
 
 
 
