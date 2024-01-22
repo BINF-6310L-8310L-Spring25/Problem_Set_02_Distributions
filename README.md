@@ -84,6 +84,9 @@ Use the mean and variance of the mean classroom scores across the district to pl
 
 ## Question 12
 
+Based on your model, you examine the two lowest scoring classrooms. Classroom A had a mean exam score of 87. Classroom B had a mean exam score of 80. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
+
+
 
 
 
