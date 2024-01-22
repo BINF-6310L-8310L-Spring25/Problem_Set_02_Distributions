@@ -45,11 +45,51 @@ Recall our Dihybrid cross in birds
 
 ## Question 6
 
-If the parental birds shown above have 20 offspring over the course of their lifetime, what is the probability of getting equal numbers of Yellow/Normal, Yellow/Clear, White/Normal, and White/Clear offspring?
+If the parental birds shown above have 20 offspring throughout their lifetime, what is the probability of getting equal numbers of Yellow/Normal, Yellow/Clear, White/Normal, and White/Clear offspring?
 
 ## Question 7
 
-The White/Clear birds are the most valuable for your research. How many offspring should you plan for so that there is a >80% chance of having 8 White/Clear baby birds?
+The White/Clear birds are the most valuable for your research. How many offspring should you plan for so that there is a >80% chance of having at least 8 White/Clear baby birds?
+
+
+# Standard Normal Distribution
+
+Recall our exploration of the Central Limit Theory. Imagine a school is trying to determine which classes are underperforming. 
+
+To do this, they take the mean test scores from all student's standardized exams in the class. At the school board meeting, there is a proposal to fire the teachers with the two lowest mean exam scores. 
+
+You are worried that the test, and not the teachers, are at fault for some of the low scores. So, you do some reading on the standardized tests that are given to students. You find out this standardized test has an **error rate of 0.12**. Therefore, even if a student knows the answer, there is only an 88% chance they will correctly answer the question when they know the answer. The exam has 100 questions.
+
+You want to know if these low scores be due to this error rate? So you assume every student knows the answer to the questions and the only reason students get the answer wrong is the random error rate on the exam. 
+
+You set out to demonstrate this to the school board. 
+
+## Question 8
+
+You know that if the scores are based only on the random error, they should follow a binomial distribution. 
+
+Take a sample of 12 student scores from the binomial distribution of a 100 question exam for 12 students. What is the mean score in that classroom?
+
+## Question 9
+
+There are 120 classes in the school district and they are all 12 students. Simulate 120 classrooms taking the exam and then plot the mean classroom score in a histogram. 
+
+## Question 10
+
+You note that this distribution looks like a normal distribution! From your sample of mean classroom scores across the district, calculate the mean and variance of the mean classroom scores. 
+
+## Question 11
+
+Use the mean and variance of the mean classroom scores across the district to plot a normal distribution of scores under the assumption that all scores are due only to random error. 
+
+## Question 12
+
+
+
+
+
+
+
 
 
 
