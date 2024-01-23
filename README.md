@@ -56,11 +56,11 @@ The White/Clear birds are the most valuable for your research. How many offsprin
 
 Recall our exploration of the Central Limit Theory. Imagine a school is trying to determine which classes are underperforming. 
 
-To do this, they take the mean test scores from all student's standardized exams in the class. At the school board meeting, there is a proposal to fire the teachers with the two lowest mean exam scores. 
+To do this, they take the mean test scores from all student's standardized exams in the class. They show a normal distribution of mean scores and suggest that this indicates that differences in teacher performance are impacting student exams. At the school board meeting, there is a proposal to fire the teachers with the two lowest mean exam scores. 
 
-You are worried that the test, and not the teachers, are at fault for some of the low scores. So, you do some reading on the standardized tests that are given to students. You find out this standardized test has an **error rate of 0.12**. Therefore, even if a student knows the answer, there is only an 88% chance they will correctly answer the question when they know the answer. The exam has 100 questions.
+You are worried that the test, and not the teachers, are at fault for some of the low scores. So, you do some reading on the standardized test given to students. You find this standardized test has an **error rate of 0.12**. Therefore, even if a student knows the answer, there is only an 88% chance they will correctly answer the question when they know the answer. The exam has 100 questions.
 
-You want to know if these low scores be due to this error rate? So you assume every student knows the answer to the questions and the only reason students get the answer wrong is the random error rate on the exam. 
+You want to know if low average classroom scores could be due to this error rate? So you assume every student knows the answer to the questions and the only reason students get the answer wrong is the random error rate on the exam. 
 
 You set out to demonstrate this to the school board. 
 
@@ -68,15 +68,15 @@ You set out to demonstrate this to the school board.
 
 You know that if the scores are based only on the random error, they should follow a binomial distribution. 
 
-Take a sample of 12 student scores from the binomial distribution of a 100 question exam for 12 students. What is the mean score in that classroom?
+Take a sample of 31 student scores from the binomial distribution of a 100 question where the rate of success is random and 88%.  What is the mean score in that classroom?
 
 ## Question 9
 
-There are 120 classes in the school district and they are all 12 students. Simulate 120 classrooms taking the exam and then plot the mean classroom score in a histogram. 
+There are 120 classes in the school district and they are all 31 students. Simulate 120 classrooms taking the exam and then plot the mean classroom score in a histogram. 
 
 ## Question 10
 
-You note that this distribution looks like a normal distribution! From your sample of mean classroom scores across the district, calculate the mean and variance of the mean classroom scores. 
+You note that this distribution looks like a normal distribution! From your sample of mean classroom scores across the district, calculate the mean and variance of the average classroom scores (from the 31 students.) 
 
 ## Question 11
 
@@ -84,14 +84,43 @@ Use the mean and variance of the mean classroom scores across the district to pl
 
 ## Question 12
 
-Based on your model, you examine the two lowest scoring classrooms. Classroom A had a mean exam score of 87. Classroom B had a mean exam score of 80. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
+Based on your model, you examine the two lowest scoring classrooms. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
 
 
+# Chi-Squared Distribution
+
+Using the Chi-Squared function in R report the following things
+
+Chi-Squared Value at which 95% and 99% of values are below that value for
+
+- 2 Degrees of Freedom
+- 6 Degrees of Freedom
+- 10 Degrees of Freedom
 
 
+# T-Distribution
+
+A teacher at a private school down the road heard about your work that showed that error alone could produce a normal distribution of average test scores. They decide to replicate your study. 
+
+Their class sizes, however, are much smaller. There are 11 students in each class. There are also only 50 classes in the school. This means they need to use the T-Distribution instead of the Normal distribution to model their classroom mean scores. 
+
+## Question 13
+
+Plot the T-distribution for 50 classes (degrees of freedom) where the distribution is centered over the score 88. 
+
+## Question 14
+
+Based on your model, you examine the two lowest scoring classrooms in this school. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
 
 
+# F-Distribution
 
+As we have seen, the shape of the F-Distribution varies depending on which sample size is used in the numerator or denominator. You are conducting an analysis with sample sizes (12 and 31). You are trying to find the F-value at which 95% of values fall below this. 
+
+
+# Question 15
+
+Which degrees of freedom do you use in the numerator to ensure the test is the most conservative?
 
 
 
