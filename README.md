@@ -80,7 +80,7 @@ There are 120 classes in the school district and they are all 31 students. Simul
 
 ### Question 10
 
-You note that this distribution looks like a normal distribution! From your sample of mean classroom scores across the district, calculate the mean and standard deviation of the average classroom scores (from the 31 students.) 
+You note that this distribution looks like a normal distribution! From your sample of 120 mean classroom scores across the district, calculate the mean and standard deviation of the average classroom scores (from the 31 students.) 
 
 ### Question 11
 
