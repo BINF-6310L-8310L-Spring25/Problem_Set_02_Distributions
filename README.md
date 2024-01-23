@@ -96,6 +96,8 @@ Based on your model, you examine the two lowest scoring classrooms. Classroom A 
 
 Using the Chi-Squared function in R report the following things
 
+### Question 13
+
 Chi-Squared Value at which 95% of values are below this threshold for
 
 - 2 Degrees of Freedom
@@ -111,11 +113,11 @@ A teacher at a private school down the road heard about your work that showed th
 
 Their class sizes, however, are much smaller. There are 11 students in each class. There are also only 50 classes in the school. This means they need to use the T-Distribution instead of the Normal distribution to model their classroom mean scores. 
 
-### Question 13
+### Question 14
 
 Plot the T-distribution for 50 classes (degrees of freedom) where the distribution is centered over the score 88. 
 
-### Question 14
+### Question 15
 
 Based on your model, you examine the two lowest scoring classrooms in this school. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
 
@@ -126,7 +128,7 @@ Based on your model, you examine the two lowest scoring classrooms in this schoo
 As we have seen, the shape of the F-Distribution varies depending on which sample size is used in the numerator or denominator. You are conducting an analysis with sample sizes (12 and 31). You are trying to find the F-value at which 95% of values fall below this. 
 
 
-# Question 15
+# Question 16
 
 Which degrees of freedom do you use in the numerator to ensure the test is the most conservative?
 
