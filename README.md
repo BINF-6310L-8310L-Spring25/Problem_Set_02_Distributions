@@ -6,6 +6,8 @@ The purpose of this lab is to give you an intuition for the various distribution
 
 Since you will be asked to include figures you will see **true/false** questions in the canvas quiz. This will allow me to grade/comment on the individual questions. 
 
+&nbsp;
+
 # Uniform distribution
 
 Create a datatset drawn from a uniform distribution with 10,000 samples taken between the values of 4 and 6
@@ -14,7 +16,7 @@ Create a datatset drawn from a uniform distribution with 10,000 samples taken be
 
 Visualize that distribution with a histogram 
 
-
+&nbsp;
 
 # Binomial Distribution 
 
@@ -36,6 +38,7 @@ What is the probability that there are 8 or more albino mice in a litter of 10 m
 
 What is the probability of at least 3 but no more than 5 albino mice in a litter of 10
 
+&nbsp;
 
 # Multinomial Distribution 
 
@@ -51,6 +54,7 @@ If the parental birds shown above have 20 offspring throughout their lifetime, w
 
 The White/Clear birds are the most valuable for your research. How many offspring should you plan for so that there is a >80% chance of having at least 8 White/Clear baby birds?
 
+&nbsp;
 
 # Standard Normal Distribution
 
@@ -86,6 +90,7 @@ Use the mean and variance of the mean classroom scores across the district to pl
 
 Based on your model, you examine the two lowest scoring classrooms. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
 
+&nbsp;
 
 # Chi-Squared Distribution
 
@@ -97,6 +102,7 @@ Chi-Squared Value at which 95% and 99% of values are below that value for
 - 6 Degrees of Freedom
 - 10 Degrees of Freedom
 
+&nbsp;
 
 # T-Distribution
 
@@ -112,6 +118,7 @@ Plot the T-distribution for 50 classes (degrees of freedom) where the distributi
 
 Based on your model, you examine the two lowest scoring classrooms in this school. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
 
+&nbsp;
 
 # F-Distribution
 
