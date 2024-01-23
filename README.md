@@ -96,7 +96,7 @@ Based on your model, you examine the two lowest scoring classrooms. Classroom A 
 
 Using the Chi-Squared function in R report the following things
 
-Chi-Squared Value at which 95% and 99% of values are below that value for
+Chi-Squared Value at which 95% of values are below this threshold for
 
 - 2 Degrees of Freedom
 - 6 Degrees of Freedom
