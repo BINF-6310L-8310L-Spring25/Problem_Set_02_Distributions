@@ -101,6 +101,7 @@ Chi-Squared Value at which 95% of values are below this threshold for
 - 2 Degrees of Freedom
 - 6 Degrees of Freedom
 - 10 Degrees of Freedom
+- 100 Degrees of Freedom
 
 &nbsp;
 
