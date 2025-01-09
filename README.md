@@ -136,13 +136,13 @@ You conducted two analyses (A and B)
 Analysis A includes 100 samples and a variance of 20
 Analysis B includes 15 samples and a variance of 40
 
-# Question 15
+### Question 16
 
 You decide to put analysis B in the denominator. 
 Calculate the F-value (proportion of the variances).
 What is the probability that you would sample an F-value where the variance of A is less than 20? 
 
-# Question 16
+### Question 17
 
 You decide to put analysis A in the denominator. 
 Calculate the F-value (proportion of the variances).
