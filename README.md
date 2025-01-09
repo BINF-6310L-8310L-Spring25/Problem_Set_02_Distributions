@@ -39,8 +39,7 @@ What is the probability that there are more than 7 albino mice in a litter of 10
 
 ### Question 5
 
-What is the probability of at least 3 but no more than 5 albino mice in a litter of 10
-
+What is the probability that there are 7 or more albino mice in a litter of 10 mice?
 &nbsp;
 
 # Multinomial Distribution 
@@ -55,7 +54,7 @@ If the parental birds shown above have 20 offspring throughout their lifetime, w
 
 ### Question 7
 
-The White/Clear birds are the most valuable for your research. How many offspring should you plan for so that there is a >80% chance of having at least 8 White/Clear baby birds?
+The White/Clear birds are the most valuable for your research. How many offspring should you plan for so that there is a >90% chance of having 8 or more (aka greater than 7) White/Clear baby birds?
 
 &nbsp;
 
@@ -89,9 +88,13 @@ You note that this distribution looks like a normal distribution! From your samp
 
 Use the mean and standard deviation of the mean classroom scores across the district to plot a normal distribution of scores under the assumption that all scores are due only to random error. 
 
+This would be your expected normal distribution for mean classroom scores if the individual grades are sampled from a random binomial distribution. 
+
 ### Question 12
 
-Based on your model, you examine the two lowest scoring classrooms. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
+The district wants to penalize teachers with an average classroom score of 87. What is the probability that a mean classroom score of 87 would be drawn from our normal distribution of mean (and binomially generated) test scores?
+
+Would you recommend a mean classroom score of 87 as the starting score for penalizing teachers? 
 
 &nbsp;
 
@@ -112,29 +115,36 @@ Chi-Squared Value at which 95% of values are below this threshold for
 
 # T-Distribution
 
-A teacher at a private school down the road heard about your work that showed that error alone could produce a normal distribution of average test scores. They decide to replicate your study. 
-
-Their class sizes, however, are much smaller. There are 11 students in each class. There are also only 50 classes in the school. This means they need to use the T-Distribution instead of the Normal distribution to model their classroom mean scores. 
+You are studying the effect of caffeine on sleep quality. You know that the mean hours of sleep for all adults is 7.2 hours. You sample 12 people who use caffeine after 3pm and find that their mean hours of sleep is 6 hours with a standard deviation of 1 hour. 
 
 ### Question 14
 
-Plot the T-distribution for 50 classes (degrees of freedom) where the distribution is centered over the score 88. 
+Based on the typical adult sleep schedule (7.2 hours), what is the probability that you would sample 12 individuals who have an average of 6 hours with a standard deviation of 1 hour?
 
 ### Question 15
 
-Based on your model, you examine the two lowest scoring classrooms in this school. Classroom A had a mean exam score of 87.5. Classroom B had a mean exam score of 80.4. Which classroom(s) could have obtained this mean score due simply to the error of the exam? 
+You sample another 12 people who don't use caffeine after 3pm and find that their mean hours of sleep is 6.5 hours with a standard deviation of 1.5 hours. What is the probability you would sample this group from the typical adult population? 
 
 &nbsp;
 
 # F-Distribution
 
-As we have seen, the shape of the F-Distribution varies depending on which sample size is used in the numerator or denominator. You are conducting an analysis with sample sizes (12 and 31). You are trying to find the F-value at which 95% of values fall below this. 
+As we have seen, the shape of the F-Distribution varies depending on which sample size is used in the numerator or denominator, but what does this actually mean? 
 
+You conducted two analyses (A and B)
+
+Analysis A includes 100 samples and a variance of 20
+Analysis B includes 15 samples and a variance of 40
+
+# Question 15
+
+You decide to put analysis B in the denominator. 
+Calculate the F-value (proportion of the variances).
+What is the probability that you would sample an F-value where the variance of A is less than 20? 
 
 # Question 16
 
-Which degrees of freedom do you use in the numerator to ensure the test is the most conservative?
-
-
-
+You decide to put analysis A in the denominator. 
+Calculate the F-value (proportion of the variances).
+What is the probability that you would sample an F-value where the variance of A is less than 20? 
 
