@@ -4,13 +4,16 @@
 
 The purpose of this lab is to give you an intuition for the various distributions we covered in class. 
 
+For reproducibility, please include the following command at the beginning of your code
+```set.seed(123)```
+
 Since you will be asked to include figures you will see **true/false** questions in the canvas quiz. This will allow me to grade/comment on the individual questions. 
 
 &nbsp;
 
 # Uniform distribution
 
-Create a datatset drawn from a uniform distribution with 10,000 samples taken between the values of 4 and 6
+Create a dataset drawn from a uniform distribution with 10,000 samples taken between the values of 4 and 6
 
 ### Question 1
 
@@ -20,11 +23,11 @@ Visualize that distribution with a histogram
 
 # Binomial Distribution 
 
-If two mice who are carriers for albinism (but not albino themselves) mate, their offspring have a 1/4 probability of being albino. Based on this information conduct the following analyses
+If two mice who are carriers for albinism (but not albino themselves) mate, their offspring have a 1/4 probability of being albino. Based on this information, conduct the following analyses
 
 ### Question 2
 
-What is the probability that exactly 2 offspring in a litter of 10 are albino?
+What is the probability that exactly 3 offspring in a litter of 10 are albino?
 
 ### Question 3
 
@@ -32,7 +35,7 @@ Plot the probability distribution function for albinism in a litter of 10 mice.
 
 ### Question 4
 
-What is the probability that there are 8 or more albino mice in a litter of 10 mice?
+What is the probability that there are more than 7 albino mice in a litter of 10 mice?
 
 ### Question 5
 
